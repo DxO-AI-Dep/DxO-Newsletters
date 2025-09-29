@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<section class="rubric">
+  <header class="rubric__header">
+    <h1>{{ page.title }}</h1>
+    {%- if page.intro -%}
+      <p class="rubric__intro">{{ page.intro }}</p>
+    {%- endif -%}
+  </header>
+  <div class="rubric__list">
+    {%- assign issues = site.newsletters | where: 'rubric', page.rubric | sort: 'date' | reverse -%}
+    {%- if issues and issues.size > 0 -%}
+      {%- for issue in issues -%}
+        {% include issue-card.html issue=issue %}
+      {%- endfor -%}
+    {%- else -%}
+      <p>No issues published yet. Check back soon.</p>
+    {%- endif -%}
+  </div>
+</section>

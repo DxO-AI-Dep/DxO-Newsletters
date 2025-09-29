@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="gradAll" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5856d6" />
+      <stop offset="100%" stop-color="#5ac8fa" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#gradAll)" />
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="72" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#ffffff" opacity="0.9">
+    DxO All Hands
+  </text>
+</svg>

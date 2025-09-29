@@ -1,0 +1,43 @@
+title: "DxO Newsletters"
+description: "Coding & Research and DxO All updates, published every three weeks."
+url: ""
+baseurl: ""
+markdown: kramdown
+theme: null
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+permalink: pretty
+collections:
+  newsletters:
+    output: true
+    permalink: "/:collection/:path/"
+defaults:
+  - scope:
+      path: ""
+      type: newsletters
+    values:
+      layout: newsletter
+  - scope:
+      path: "coding-research"
+      type: newsletters
+    values:
+      rubric: coding-research
+  - scope:
+      path: "all"
+      type: newsletters
+    values:
+      rubric: all
+nav_links:
+  - title: "Coding & Research"
+    url: "/coding-research/"
+  - title: "All"
+    url: "/all/"
+include:
+  - pages
+sass:
+  style: compressed
+  sass_dir: assets/css
+feed:
+  collections:
+    - newsletters

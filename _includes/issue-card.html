@@ -1,0 +1,14 @@
+<article class="issue-card">
+  <a class="issue-card__link" href="{{ issue.url | relative_url }}">
+    <h2>{{ issue.title }}</h2>
+    <p class="issue-card__meta">
+      <time datetime="{{ issue.date | date_to_xmlschema }}">{{ issue.date | date: "%B %-d, %Y" }}</time>
+      {%- if issue.reading_time -%}
+        · {{ issue.reading_time }} min read
+      {%- endif -%}
+    </p>
+    {%- if issue.summary -%}
+      <p class="issue-card__summary">{{ issue.summary }}</p>
+    {%- endif -%}
+  </a>
+</article>

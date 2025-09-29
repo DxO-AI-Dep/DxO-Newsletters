@@ -1,0 +1,30 @@
+---
+layout: default
+---
+<article class="newsletter">
+  <p class="newsletter__back"><a href="{{ '/' | append: page.rubric | append: '/' | relative_url }}">← Back to {{ page.rubric | replace: '-', ' ' | capitalize }}</a></p>
+  <header class="newsletter__header">
+    <p class="newsletter__rubric">{{ page.rubric | replace: '-', ' ' | capitalize }}</p>
+    <h1>{{ page.title }}</h1>
+    <p class="newsletter__meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+      {%- if page.authors -%}
+        · {% for author in page.authors %}{{ author.name }}{% if author.role %} ({{ author.role }}){% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}
+      {%- endif -%}
+      {%- if page.reading_time -%}
+        · {{ page.reading_time }} min read
+      {%- endif -%}
+    </p>
+    {%- if page.summary -%}
+      <p class="newsletter__summary">{{ page.summary }}</p>
+    {%- endif -%}
+    {%- if page.hero_image -%}
+      <figure class="newsletter__hero">
+        <img src="{{ page.hero_image | relative_url }}" alt="{{ page.hero_alt | default: page.summary | default: page.title }}" loading="lazy" />
+      </figure>
+    {%- endif -%}
+  </header>
+  <div class="newsletter__body">
+    {{ content }}
+  </div>
+</article>
