@@ -1,6 +1,6 @@
 title: "DxO Newsletters"
 description: "Coding & Research and DxO All updates, published every three weeks."
-url: "https://acalvi.github.io"
+url: "https://dxo-ai-dep.github.io"
 baseurl: "/DxO-Newsletters"
 markdown: kramdown
 theme: null

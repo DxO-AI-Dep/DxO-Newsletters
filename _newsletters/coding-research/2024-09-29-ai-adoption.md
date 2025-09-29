@@ -58,7 +58,7 @@ If world-class theorists, founders, and educators are making AI part of their da
   <img src="{{ '/assets/images/newsletters/coding-research/2025-09-29-ai-adoption/deepmind.png' | relative_url }}" alt="Google DeepMind IMO badge" class="story__avatar" />
   <div class="story__content">
     <h3>Gemini also hits IMO gold standard</h3>
-    <p><strong class="highlight highlight--indigo">The same Gemini Deep Think research team</strong> turned to the International Mathematical Olympiad, where problems demand creative proofs instead of code. Under IMO-style grading, Gemini reached gold-medal performance on the 2024 problems.</p>
+    <p><strong class="highlight highlight--indigo">The same Gemini Deep Think research team</strong> turned to the International Mathematical Olympiad, where problems demand creative proofs instead of code. Under IMO-style grading, Gemini reached gold-medal performance on the 2025 problems.</p>
     <p>Olympiad veterans vetted the solutions, underscoring that carefully supervised AI can now tackle elite math contests. Browse the technical recap: <a href="https://deepmind.google/discover/blog/advanced-version-of-gemini-with-deep-think-officially-achieves-gold-medal-standard-at-the-international-mathematical-olympiad/">Gemini reaches IMO gold level</a>.</p>
   </div>
 </div>
