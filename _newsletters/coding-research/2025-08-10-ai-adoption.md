@@ -2,7 +2,7 @@
 layout: newsletter
 rubric: coding-research
 title: "When the Skeptics Blink"
-date: 2025-09-29
+date: 2025-08-10
 summary: "Five heavyweight voices show how AI is already woven into frontier research, production code, competitions, and math olympiads."
 authors:
   - name: "DxO Research Editorial"
@@ -19,7 +19,7 @@ tags:
 If world-class theorists, founders, and educators are making AI part of their daily toolkit, we should pay attention. This week's roundup highlights respected leaders who have already crossed that bridge.
 
 <div class="story">
-  <img src="{{ '/assets/images/newsletters/coding-research/2025-09-29-ai-adoption/Aaronson_Scott.jpg' | relative_url }}" alt="Portrait of Scott Aaronson" class="story__avatar" />
+  <img src="{{ '/assets/images/newsletters/coding-research/2025-08-10-ai-adoption/Aaronson_Scott.jpg' | relative_url }}" alt="Portrait of Scott Aaronson" class="story__avatar" />
   <div class="story__content">
     <h3>Scott Aaronson lets GPT-5 co-author a quantum proof</h3>
     <p><strong class="highlight highlight--indigo">Quantum complexity veteran Scott Aaronson</strong>, the Schlumberger Centennial Chair of Computer Science at UT Austin and director of its Quantum Information Center, studies the theoretical limits of quantum computation. He spent 2022-24 on leave at OpenAI working on the foundations of AI safety.</p>
@@ -28,7 +28,7 @@ If world-class theorists, founders, and educators are making AI part of their da
 </div>
 
 <div class="story">
-  <img src="{{ '/assets/images/newsletters/coding-research/2025-09-29-ai-adoption/brian.png' | relative_url }}" alt="Portrait of Brian Armstrong" class="story__avatar" />
+  <img src="{{ '/assets/images/newsletters/coding-research/2025-08-10-ai-adoption/brian.png' | relative_url }}" alt="Portrait of Brian Armstrong" class="story__avatar" />
   <div class="story__content">
     <h3>Brian Armstrong wants half of Coinbase's code AI-generated</h3>
     <p><strong class="highlight highlight--orange">Coinbase co-founder and CEO Brian Armstrong</strong> oversees one of the most heavily regulated engineering stacks in fintech. In a recent note to teams, he revealed that roughly 40% of the daily code merged at Coinbase is now AI-authored.</p>
@@ -37,7 +37,7 @@ If world-class theorists, founders, and educators are making AI part of their da
 </div>
 
 <div class="story">
-  <img src="{{ '/assets/images/newsletters/coding-research/2025-09-29-ai-adoption/ethan.jpg' | relative_url }}" alt="Portrait of Ethan Mollick" class="story__avatar" />
+  <img src="{{ '/assets/images/newsletters/coding-research/2025-08-10-ai-adoption/ethan.jpg' | relative_url }}" alt="Portrait of Ethan Mollick" class="story__avatar" />
   <div class="story__content">
     <h3>Ethan Mollick documents the new division of labor</h3>
     <p><strong class="highlight highlight--teal">Wharton professor Ethan Mollick</strong> has become the go-to guide for applied AI in classrooms and boardrooms. In his latest field note, he describes a mathematician partnering with GPT-5 Pro to produce genuinely novel proofs.</p>
@@ -46,7 +46,7 @@ If world-class theorists, founders, and educators are making AI part of their da
 </div>
 
 <div class="story">
-  <img src="{{ '/assets/images/newsletters/coding-research/2025-09-29-ai-adoption/deepmind.png' | relative_url }}" alt="Google DeepMind Gemini badge" class="story__avatar" />
+  <img src="{{ '/assets/images/newsletters/coding-research/2025-08-10-ai-adoption/deepmind.png' | relative_url }}" alt="Google DeepMind Gemini badge" class="story__avatar" />
   <div class="story__content">
     <h3>Gemini takes gold-level at the ICPC World Finals</h3>
     <p><strong class="highlight highlight--blue">Google DeepMind's Gemini 2.5 Deep Think</strong> entered the 2025 International Collegiate Programming Contest World Finals and solved 10 of 12 problems, including one no university team cracked.</p>
@@ -55,7 +55,7 @@ If world-class theorists, founders, and educators are making AI part of their da
 </div>
 
 <div class="story">
-  <img src="{{ '/assets/images/newsletters/coding-research/2025-09-29-ai-adoption/deepmind.png' | relative_url }}" alt="Google DeepMind IMO badge" class="story__avatar" />
+  <img src="{{ '/assets/images/newsletters/coding-research/2025-08-10-ai-adoption/deepmind.png' | relative_url }}" alt="Google DeepMind IMO badge" class="story__avatar" />
   <div class="story__content">
     <h3>Gemini also hits IMO gold standard</h3>
     <p><strong class="highlight highlight--indigo">The same Gemini Deep Think research team</strong> turned to the International Mathematical Olympiad, where problems demand creative proofs instead of code. Under IMO-style grading, Gemini reached gold-medal performance on the 2025 problems.</p>
